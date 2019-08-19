@@ -1,0 +1,21 @@
+            $args = array(
+                'show_option_all'    => '',
+                'show_option_none'   => 'Use category from Amazon',
+                'orderby'            => 'NAME',
+                'order'              => 'ASC',
+                'show_count'         => 0,
+                'hide_empty'         => 0,
+                'child_of'           => 0,
+                'exclude'            => '',
+                'echo'               => 0,
+                'selected'           => 0,
+                'hierarchical'       => 1,
+                'name'               => 'WooZoneLite-to-category',
+                'id'                 => 'WooZoneLite-to-category',
+                'class'              => 'postform',
+                'depth'              => 0,
+                'tab_index'          => 0,
+                'taxonomy'           => 'product_cat',
+                'hide_if_empty'      => false,
+            );
+            return wp_dropdown_categories( $args );
